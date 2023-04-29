@@ -1,0 +1,9 @@
+/.git
+/.vscode
+/.output
+/.husky
+/.cert
+build
+public
+dist
+node_modules
