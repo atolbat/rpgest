@@ -1,9 +1,13 @@
 <script setup lang="ts">
-import ItemsPanel from './components/ItemsPanel.vue';
+import AppViewport from './components/AppViewport.vue'
 </script>
 
 <template>
-  <ItemsPanel></ItemsPanel>
+	<AppViewport></AppViewport>
 </template>
 
-<style scoped></style>
+<style scoped>
+:root{
+	overflow: hidden;
+}
+</style>
